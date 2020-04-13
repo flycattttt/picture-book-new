@@ -1,0 +1,12 @@
+
+## tomcat配置
+spring:
+  profiles:
+    active: app,common,db
+  application:
+    name: picture-book-app
+
+
+
+
+

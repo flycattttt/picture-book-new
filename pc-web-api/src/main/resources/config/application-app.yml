@@ -1,0 +1,20 @@
+## 项目启动名称
+blade:
+  env=1.0
+spring-boot:
+  version=2.1.6
+
+server:
+  servlet:
+    context-path: /dust
+  port: 8899
+  tomcat:
+    max-http-post-size: -1
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  connection-timeout: 5000
+
+## 日志配置
+logging:
+  config: classpath:log/logback_dev.xml
